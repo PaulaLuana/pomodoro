@@ -1,6 +1,11 @@
 # Relógio Pomodoro
 
+<<<<<<< HEAD
 <img src="src/assets/template.png" width=400><br>
+=======
+<img src="src/assets/template.png" width=300>
+<img src="src/assets/template2.png" width=300><br>
+>>>>>>> 46b55cc0feca4a1d3b2180949968de663d080bec
 A Técnica Pomodoro é um método de gerenciamento de tempo desenvolvido por Francesco Cirillo no final dos anos 80. A técnica usa um cronômetro para dividir o trabalho em intervalos, tradicionalmente de 25 minutos de duração, separados por pequenos intervalos - 5 minutos.
 
 ## Histórias de usuário
