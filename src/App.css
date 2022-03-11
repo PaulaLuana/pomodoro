@@ -1,0 +1,188 @@
+.boxConfig{
+    margin-top: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    color: white;
+}
+
+.img{
+  width: 300px;
+}
+
+
+.cronometro{
+  width: 40%;
+  height: 300px;
+  background-color: #db6b67;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.boxSession{
+  margin-top: 10px;
+  margin-left: 15px;
+  background-color: #c04c47;
+  height: 30px;
+  width: 90px;
+  border-radius: 5px;
+  position: absolute;
+
+}
+.session{
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 10px;
+  font-weight: bold;
+  color: white;
+
+}
+
+.boxCronometro{
+  position: absolute;
+  text-align: center;
+  width: 50%;
+  height: 70%;
+  margin-top: 14%;
+  margin-left: 25%;
+  font-weight: bold;
+  color: white;
+}
+
+.timer{
+  font-weight: bold;
+  font-size: 80px;
+}
+
+
+.boxMenuTitle{
+  margin-top: 10px;
+  margin-left: 120px;
+  background-color: #c04c47;
+  height: 30px;
+  width: 130px;
+  border-radius: 5px;
+  position: absolute;
+
+}
+.menuTitle{
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 10px;
+  font-weight: bold;
+  color: white;
+}
+
+
+.blink {
+  position: absolute;
+  margin-top: 2px;
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 22px;
+  color: black;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.boxMessagePause{
+  margin-top: 10px;
+  margin-left: 260px;
+  height: 30px;
+  width: 280px;
+  border-radius: 5px;
+  position: absolute;
+}
+
+.buttonImg{
+  margin-top:4px;
+  width: 30px;
+  
+}
+
+.button{
+  margin: 2px;
+  background-color: #db6b67;
+  border: 0px;
+}
+
+.button2{
+  margin: 2px;
+  background-color: #c04c47;
+  border: 0px;
+}
+
+.buttonReset{
+  background-color: white;
+  border: 0px;
+  border-radius: 3px;
+  height: 20px;
+}
+
+.titleReset{
+  font-weight: bold;
+  font-size: 13px;
+  color: #d4322c;
+  
+}
+
+.container{
+  width: 200px;
+  height: 360px;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
+  background-color: #c04c47;
+}
+
+.titlePainel{
+  font-size: 15px;
+}
+
+.boxTitlePainel{
+  margin-top: 10px;
+  margin-left: 15px;
+  background-color: #c04c47;
+  height: 30px;
+  width: 170px;
+  border-radius: 5px;
+  position: absolute;
+}
+
+.title{
+  position: relative;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+}
+
+.initTime{
+  margin-top: 7px;
+}
+
+.buttonPainel{
+  width: 20px;
+  margin: 20px;
+  margin-top: -50px;
+}
+
+.buttonsInterval{
+  margin-top: -20px;
+}
+
+.titlePause{
+  font-size: 10px;
+}
