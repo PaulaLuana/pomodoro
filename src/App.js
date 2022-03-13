@@ -122,7 +122,7 @@ function App() {
     if(status){
       interval = setInterval(() => {
         decrementSeconds();
-      }, 1000);
+      }, 100);
     }else{
       clearInterval(interval);
     }
@@ -131,8 +131,9 @@ function App() {
   useEffect(() => {
     if(timer == 0){
       playAudio();
+      setTimer((s) => s *60);
       if(type == FOCUS){
-        if(statusLongPause && session % 4 == 0){
+        if(statusLongPause && session % 4 == 0 && status){
           setType(LONGPAUSE);
           setTimer(initLongPause*60);
         }else{
