@@ -22,7 +22,6 @@ function App() {
   const [type, setType] = useState(FOCUS);
   const [session, setSession] = useState(1); //contagem das sessões
   const [statusLongPause, setStatusLongPause] = useState(false); //status se a pausa longa foi solicitada
-  //const [statusAudio, setStatusAudio] = useState(false);
 
   
 
